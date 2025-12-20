@@ -47,7 +47,7 @@ body {
 .menu {
     list-style: none;
     display: flex;
-    gap: 3rem;
+    gap: 3.7rem;
     justify-content: center;
 }
 
@@ -283,3 +283,4 @@ body {
             transform: translateY(-20px);
         }
     }
+
