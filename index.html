@@ -4,131 +4,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap"
+        rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="html.icop">
+    <link rel="stylesheet" href="styles.css">
+    <title>Store</title>
 </head>
 
 <body>
-    <div class="particulas"></div>
-
-    <nav class="navegacao">
-        <ul class="menu">
-            <li>
-                <a href="#Inicio" class="menu-link">Início</a>
-            </li>
-            <li>
-                <a href="#Sobre" class="menu-link">Sobre</a>
-            </li>
-            <li>
-                <a href="#Projetos" class="menu-link">Projetos</a>
-            </li>
-            <li>
-                <a href="#Contatos" class="menu-link">Contato</a>
-            </li>
-        </ul>
-    </nav>
-
-
-    <header id="Inicio" class="cabecalho">
-        <img src="foto.jpg" alt="Foto de Victor" class="foto-perfil">
-        <h1>Victor Morais</h1>
-        <p class="cabecalho-sub-titulo">Desenvolvedor Front-end</p>
+    <header></header>
+        <div class="logo">store</div>
+        <nav>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </nav>
     </header>
 
-    <section id="Sobre" class="sobre">
-        <h2 class="sobre-titulo">Sobre mim</h2>
-
-        <div class="sobre-caixa">
-            <p class="sobre-paragrafo">
-                Meu nome é Victor, tenho 15 anos e moro em São Paulo - SP. <br><br>
-                Minha jornada na programação começou em março, assistindo o canal
-                <a href="https://www.youtube.com/cursoemvideo" target="_blank" rel="external">
-                    curso em video
-                </a> do Gustavo Guanabara de html-css no YouTube.
-                Foi ali que percebi que esse mundo era exatamente o tipo de desafio que eu procurava. <br><br>
-                Além da programação, também sou jogador profissional de xadrez, o que me ajudou a desenvolver lógica e
-                foco —
-                habilidades que combinam muito com meu propósito. <br><br>
-                Atualmente estudo em uma
-                <a href="https://etecterezanunes.cps.sp.gov.br/" target="_blank" rel="external">ETEC</a>,
-                cursando Eletroeletrônica, e sigo estudando programação todos os dias por conta própria.
-            </p>
+    <main class="container">
+        <div class="tech-circle">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
         </div>
-    </section>
 
+        <div class="lista">
 
-    <section id="Projetos" class="projetos">
-        <h2 class="projetos-titulo">Meus Projetos</h2>
+            <div class="item ativo">
+                <div class="produto-img">
+                    <img src="imagens/rtx-5090.png" alt="geforce-rtx-5090">
+                </div>
 
-        <div class="projetos-caixa">
-
-            <div class="projetos-card">
-                <img src="restaurante.jpg" alt="imagem-restaurante" class="projetos-imagem">
-                <div class="caixa-textos-projetos">
-                    <h3 class="info-projetos">Site Restaurante</h3>
-                    <p class="paragrafo-projetos">Em desenvolvimento</p>
+                <div class="conteudo">
+                    <p class="produto-tag">placa do futuro</p>
+                    <p class="produto-nome">GeForce RTX 5090</p>
+                    <p class="descrição"> A placa de vídeo mais avançada da NVIDIA.
+                        Projetada para performance extrema, ela combina tecnologia de ponta, eficiência energética e
+                        capacidade incomparável. Ideal para quem busca potência, precisão e um design premium pensado
+                        para qualquer desafio.</p>
+                    <button class="btn-saiba-mais">Saiba mais</button>
                 </div>
             </div>
 
-            <div class="projetos-card">
-                <img src="barbearia.jpg" alt="imagem-barbearia" class="projetos-imagem">
-                <div class="caixa-textos-projetos">
-                    <h3 class="info-projetos">Site Barbearia</h3>
-                    <p class="paragrafo-projetos">Em desenvolvimento</p>
+            <div class="item">
+
+                <div class="produto-img">
+                    <img src="imagens/airpods-max.png" alt="airpods-max">
+                </div>
+                <div class="conteudo">
+                    <p class="produto-tag"> Som Premium</p>
+                    <p class="produto-nome">Air Pods Max</p>
+                    <p class="descrição">Construídos com drivers de alta precisão e acústica de última geração, eles
+                        oferecem graves profundos, médios cristalinos e agudos extremamente detalhados, tudo envolto em
+                        um design sofisticado que redefine o que é ouvir com qualidade.</p>
+                    <button class="btn-saiba-mais">Saiba mais</button>
                 </div>
             </div>
-
-            <div class="projetos-card">
-                <img src="jogo.jpg" alt="imagem-jogo" class="projetos-imagem">
-                <div class="caixa-textos-projetos">
-                    <h3 class="info-projetos">Jogo simples</h3>
-                    <p class="paragrafo-projetos">Em desenvolvimento</p>
-                </div>
-            </div>
-
         </div>
-    </section>
 
+        <div class="item">
 
-    <section id="Contatos" class="contatos">
-        <h2 class="contatos-titulo">Entre em Contato</h2>
-
-        <form class="formulario-contato" id="formulario" onsubmit="enviarWhats (event)">
-            <div class="grupo-form">
-                <input placeholder="Nome" class="campo-form" id="nome">
+            <div class="produto-img">
+                <img src="imagens/iphone-17-pro-max.webp" alt="iphone-17-pro-max">
             </div>
-            <div class="grupo-form">
-                <textarea placeholder="Digite sua mensagem" class="campo-form" id="mensagem" rows="6"></textarea>
+            <div class="conteudo">
+                <p class="produto-tag">A revolução</p>
+                <p class="produto-nome">Iphone 17 Pro Max</p>
+                <p class="descrição">Poder absoluto, design refinado e uma câmera que redefine o impossível. O iPhone 17
+                    Pro Max entrega desempenho de outro nível, imagens cinematográficas e uma experiência fluida como
+                    nunca. Simplesmente o mais avançado iPhone já criado.</p>
+                <button class="btn-saiba-mais">Saiba mais</button>
             </div>
-            <button type="submit" class="botao-form">
-                Enviar WhatsApp
+        </div>
+
+        <div class="arrows">
+            <button class="arrow-btn" id="prev">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff"
+                    class="bi bi-arrow-left-short" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5" />
+                </svg>
             </button>
-        </form>
 
-    </section>
+            <button class="arrow-btn" id="next">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff"
+                    class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+                </svg>
+            </button>
+        </div>
 
-    <script>
+        <div class="indicadores">
+            <div class="numeros">01</div>
+            <div class="pontos">
+                <div class="ponto ativo"></div>
+                <div class="ponto"></div>
+                <div class="ponto"></div>
+            </div>
+        </div>
 
-        function enviarWhats(event) {
-            event.preventDefault();
-
-            const nome = document.getElementById('nome');
-            const mensagem = document.getElementById('mensagem');
-            const telefone = '5511949377443'
-
-            const texto = `Olá! Me chamo ${nome.value}, ${mensagem.value}`;
-            const msgFormatada = encodeURIComponent(texto);
-
-            const url = `https://wa.me/${telefone}?text=${msgFormatada}`;
-            console.log(url);
-
-
-            window.open(url, '_blank');
-        }
-
-    </script>
-
+    </main>
+ 
 </body>
-
+<script src="script.js"></script>
 
 </html>
